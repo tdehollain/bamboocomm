@@ -1,0 +1,16 @@
+{
+  "name": "emailServer",
+  "version": "0.0.1",
+  "description": "Server to handle message requests from Bamboo Communications",
+  "main": "emailApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Thibaut de Hollain",
+  "license": "BSD",
+  "dependencies": {
+    "nodemailer": "0.3.29",
+    "socket.io": "1.3.2"
+  }
+}

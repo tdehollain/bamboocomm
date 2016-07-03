@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>Bamboo Communication</title>
+		<script>//document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	</head>
+	
+	<body>
+		<div id="topBar" class="">
+			<header class="">
+				<div id="mainLogo">
+					<a href="index.html"><img id="mainLogoImg" src="img/mainLogo.jpg"></a>
+				</div>
+				<nav class="">
+					<ul class="nav nav-pills">
+						<li class="active"><a class="custom" href="#"><span aria-hidden="true" class="icon-home"></span>Home</a></li>
+						<li><a class="custom" href="#aboutLink"><span aria-hidden="true" class="icon-about"></span>About</a></li>
+						<li><a class="custom" href="#workLink"><span aria-hidden="true" class="icon-work"></span>Work</a></li>
+						<li><a class="custom" href="#contactLink"><span aria-hidden="true" class="icon-envelop"></span>Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<div id="banner" class="">
+			<div id="bannerBackground"></div>
+			<!--<img id="bannerImg" src="img/bbBanner.jpg">-->
+			<h1>Your Relationships. Our business.</h1>
+			<!--<div class="horLine"></div>-->
+		</div>
+		<div id="articlesWrapper">
+			<div id="articlesSubWrapper" class="container">
+				<article id="about">
+					<div class="row articleHeader">
+						<span class="span5 offset2">
+							<h2>Successful PR programs do not just <em>happen</em>.</h2>
+						</span>
+						<span class="span2 offset1">
+							<img class="oLogo" src="img/oLogo.jpg" width=140px>
+						</span>
+					</div>
+					<div class="row articleContent">
+						<span class="span4 offset2">We believe that effective relationship management is the key to a 
+						happy client thus we take a personal and professional approach to 
+						client servicing. Every client benefits from the hands on involvement of 
+						our team. We are passionate, creative and dedicated to delivering the 
+						best service to our clients.</span>
+						<span class="span4">Our campaigns are based on sound research, meticulous 
+						planning, and constant feedback and evaluation from our clients and 
+						their stakeholders. In this way we are able to consistently deliver true 
+						commercial advantage, building credibility and making marketing 
+						spend work harder.</span>
+					</div>
+				</article>
+				<hr id="aboutLink">
+				<article id="whoWeAre">
+					<div class="row articleHeader">
+						<span class="span2 offset2">
+							<img class="oLogo" src="img/oLogo.jpg" width=140px>
+						</span>
+						<span class="span5 offset1">
+							<h2>We are Bamboo Communication.</h2>
+						</span>
+					</div>
+					<div class="row articleContent">
+						<span class="span4 offset2">Bamboo Communication is a public relations and communication 
+						management consultancy that specializes in delivering strategic and 
+						successful communication campaigns that set our clients apart and 
+						add value to their business</span>
+						<span class="span4">Our aim is to provide brand-building solutions that improve our clients’ 
+						competitive positioning and thus help them achieve their 
+						organizational goals. </span>
+					</div>
+				</article>
+				<hr>
+				<article id="servicesPortfolio">
+					<div class="row articleHeader">
+						<span class="span5 offset2">
+							<h2>Services. Without the <em>hot air</em>.</h2>
+						</span>
+						<span class="span2 offset1">
+							<img class="oLogo" src="img/oLogo.jpg" width=140px>
+						</span>
+					</div>
+					<div class="row articleContent">
+						<span class="span4 offset2">Our team of dedicated and experienced professionals is able to 
+						provide the following services :</span>
+						<span class="span4">Consumer Communication, Content Development & Design, Community Relations, 
+						Editorial Services, Image Consultancy, Media Relations , Product Launches, Publicity, 
+						Public Affairs, Technical Writing</span>
+					</div>
+				</article>
+				<hr id="workLink">
+				<article id="work">
+					<div class="row articleHeader">
+						<span class="span2 offset2">
+							<img class="oLogo" src="img/oLogo.jpg" width=140px>
+						</span>
+						<span class="span5 offset1">
+							<h2>Our clients.</em></h2>
+						</span>
+					</div>
+					<div class="row articleContent">
+						<span class="span4 offset2">
+							<ul>
+								<li>Ignite Media</li>
+								<li>Change-A-Life</li>
+								<li>British Council</li>
+								<li>Interior Options</li>
+								<li>Paga</li>
+							</ul>
+						</span>
+						<span class="span4">
+							<ul>
+								<li>Kachifo Limited</li>
+								<li>Fujitsu PFU</li>
+								<li>Kareema Mak</li>
+								<li>Blackbox</li>
+								<li>Zircon Marine</li>
+							</ul>
+						</span>
+					</div>
+				</article>
+				<hr id="contactLink">
+				<article id="contact">
+					<div class="row articleHeader">
+						<h2>Contact us</h2>
+					</div>
+					<div class="row articleContent">
+						<form id="contactForm">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" value="" placeholder="your name" required="required">
+							<label for="name">Email address</label>
+							<input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required">
+							<label for="name">Telephone (optional)</label>
+							<input type="text" id="phone" name="phone" value="" placeholder="your phone number">
+							<label for="message">Message</label>
+							<textarea id="message" name="message" placeholder="Your message" required="required"></textarea>
+							<button class="btn btn-primary btn-large" type="submit">
+								<span aria-hidden="true" class="icon-envelop"></span>
+								<span id="submitText">Submit</span>
+						   </button>
+						</form>
+					</div>
+				</article>
+			</div>
+		</div>
+		<footer>
+			
+		</footer>
+	</body>
+	<script src='js/lib/jquery.min.js'></script>
+	<script src='js/script.js'></script>
+	<script src='https://cdn.socket.io/socket.io-1.3.2.js'></script>
+</html>
