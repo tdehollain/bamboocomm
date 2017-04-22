@@ -58,7 +58,7 @@ $(document).ready(function() {
 		var userPhone = dataArr[2].value;
 		var userMessage = dataArr[3].value;
 
-		var socket = io.connect('http://54.154.192.46:8004/');
+		var socket = io.connect('http://52.17.2.153:8004/');
 		socket.on('connection', function() {
 			socket.emit('newMessage', {
 				name: userName,
